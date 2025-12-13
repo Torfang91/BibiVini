@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Sign in to your BibiVini account to manage your winery's digital wine experience." />
+        <title>BibiVini - Sign In</title>
+        <link rel="stylesheet" href="CSS/CSS-Bibivini.css" />
+    </head>
+    <body>
+        <header class="hero">
+            <div class="logo">
+                <img src="Images/Bibivini-Logo.png" alt="BibiVini Logo" />
+            </div>
+            <h1>BibiVini</h1>
+            <p class="tagline">Elevate Your Wine Experience</p>
+        </header>
+        <main>
+            <section id="sectionContent">
+                <div class="signin-container">
+                    <h1>Sign In to Your Account</h1>
+                    <p class="signin-subtitle">Manage your winery's digital wine experience</p>
+                    <form action="https://formspree.io/f/xeobnold" method="POST" class="signin-form">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                required
+                                placeholder="Enter your password" />
+                        </div>
+                        <div class="form-options">
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember" name="remember" />
+                                <label for="remember">Remember me</label>
+                            </div>
+                            <a href="#forgot-password" class="forgot-password">Forgot password?</a>
+                        </div>
+                        <button type="submit" class="signin-button">Sign In</button>
+                        <div class="signup-link">
+                            <p>New to BibiVini? <a href="Contact%20Us.html">Contact us to get started</a></p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About-Us.html">About Us</a></li>
+                <li><a href="Example.html">Product Example</a></li>
+                <li><a href="Sign-in.html">Sign In</a></li>
+                <li class="dropdown">
+                    <a href="Blog.html">Blog ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="BP-5-ways-to-make.html">5 Ways to Make Every Tasting Room Visit Count</a></li>
+                        <li><a href="BP-How-to-train-.html">How to Train Your Staff with Digital Tools</a></li>
+                        <li><a href="BP-Terroir.html">Teaching Terroir: Making Vineyard Stories Stick</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contact%20Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <footer>
+            <p>&copy; 2026 BibiVini. All rights reserved.</p>
+            <p class="footer-tagline">Where Hospitality Meets Technology</p>
+        </footer>
+    </body>
+</html>

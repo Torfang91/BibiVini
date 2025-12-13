@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Wines - BibiVini</title>
+    <link rel="stylesheet" href="CSS/CSS-Bibivini.css">
+    <style>
+        /* Make wine cards on purchase page align buttons */
+        .wine-grid .wine-card {
+            display: flex;
+            flex-direction: column;
+        }
+        .wine-grid .wine-card-content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .wine-grid .wine-card-content .description {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="logo">
+            <img src="Images/Bibivini-Logo.png" alt="BibiVini Logo">
+        </div>
+        <h1>BibiVini</h1>
+        <p class="tagline">Digital Wine Experiences</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Example.html">Our Wines</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>Purchase Our Wines</h1>
+            <p class="subtitle">Discover exceptional wines from BibiVini Family Winery</p>
+
+            <section id="sectionContent">
+                <div class="wine-grid">
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Olivers-vineyard.png" alt="Oliver's Vineyard Pinot Noir">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Oliver's Vineyard Pinot Noir</h3>
+                            <p class="varietal">100% Pinot Noir</p>
+                            <p class="description">Elegant and refined with bright cherry notes, silky tannins, and cool-climate character.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$48</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Felix-Zin.png" alt="Felix's Old Vine Zinfandel">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Felix's Old Vine Zinfandel</h3>
+                            <p class="varietal">Old Vine Zinfandel</p>
+                            <p class="description">Bold and jammy from 80-year-old vines. Blackberry, pepper, and robust tannins.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$52</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Sarah-Syrah.png" alt="Que Sarah Syrah">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Que Sarah Syrah</h3>
+                            <p class="varietal">100% Syrah</p>
+                            <p class="description">Dark fruit, smoked meat, and black pepper. Full-bodied with structured tannins.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$46</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Ode-to-Joy.png" alt="Ode to Joy Sauvignon Blanc">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Ode to Joy Sauvignon Blanc</h3>
+                            <p class="varietal">100% Sauvignon Blanc</p>
+                            <p class="description">Bright citrus and tropical notes with crisp acidity and white flowers.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$32</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Jumble-Down.png" alt="Jumble Down Cabernet Sauvignon">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Jumble Down Cabernet Sauvignon</h3>
+                            <p class="varietal">100% Cabernet Sauvignon</p>
+                            <p class="description">Structured and age-worthy. Cassis, dark chocolate, and cedar with firm tannins.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$58</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Uncle-D.png" alt="Uncle D's Red Blend">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Uncle D's Red Blend</h3>
+                            <p class="varietal">Bordeaux-Style Blend</p>
+                            <p class="description">Classic blend of Cabernet, Merlot, and Petit Verdot. Approachable yet complex.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$42</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Teddy-Bear.png" alt="Teddy Bear Tempranillo">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Teddy Bear Tempranillo</h3>
+                            <p class="varietal">100% Tempranillo</p>
+                            <p class="description">Medium-bodied with red cherry, leather, and smooth tannins. Food-friendly.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$38</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Jackie-Jane.png" alt="Jackie Jane Chardonnay">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Jackie Jane Chardonnay</h3>
+                            <p class="varietal">100% Chardonnay</p>
+                            <p class="description">Balanced and elegant. Ripe pear, vanilla, and toasted oak with bright acidity.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$36</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Gaffers.png" alt="Gaffer's Grenache">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Gaffer's Grenache</h3>
+                            <p class="varietal">100% Grenache</p>
+                            <p class="description">Bright and fruit-forward. Strawberry, raspberry, and white pepper with silky texture.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$40</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="wine-card" style="cursor: default;">
+                        <div class="wine-card-image">
+                            <img src="Images/Bottleshots/Grants.png" alt="Grant's Old Vine Viognier">
+                        </div>
+                        <div class="wine-card-content">
+                            <h3>Grant's Old Vine Viognier</h3>
+                            <p class="varietal">Old Vine Viognier</p>
+                            <p class="description">Aromatic and lush. Apricot, peach, and honeysuckle with full-bodied texture.</p>
+                            <p style="font-size: 1.5rem; font-weight: 700; color: #2d5016; margin: 20px 0;">$44</p>
+                            <button class="signin-button" onclick="alert('Added to cart!')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta" style="margin-top: 60px;">
+                    <h3>Shipping & Pickup Information</h3>
+                    <p>Free shipping on orders over $150. Local pickup available at our tasting room in Sonoma County. Wine club members receive 20% off all purchases.</p>
+                    <p style="margin-top: 20px;"><strong>Questions?</strong> Contact us at wine@bibivini.com or call (707) 555-WINE</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BibiVini - Digital Wine Experiences</p>
+        <p>Transforming traditional wine sheets into modern digital experiences</p>
+        <p class="footer-tagline">Elevating the tasting room experience, one QR code at a time</p>
+    </footer>
+</body>
+</html>
